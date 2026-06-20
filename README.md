@@ -46,6 +46,10 @@ This is the third project in a series I'm building toward ML Engineering. The fi
 
 ## Architecture
 
+<p align="center">
+  <img src="architecture_diagram.svg" alt="Health Anomaly Detection Architecture" width="900">
+</p>
+
 
 The system has two halves: a training pipeline that runs locally and produces a portable model file, and a deployment layer that serves predictions from the cloud.
 
